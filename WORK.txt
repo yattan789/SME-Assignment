@@ -1,0 +1,10 @@
+PART A and PART B done
+
+Part B --> circular dependency between classes 
+
+Part C --> missing bullet fire function in the enemy as well as player model and controller 
+	
+IDEA --> Add a bullet class and create a bullet when left / right click pressed through an event listener 
+		start bullet from the initial position 
+		speed and check-in fame
+		also, check any collision with other entity of the game if yes --> destroy
