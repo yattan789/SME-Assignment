@@ -7,6 +7,7 @@
 
 namespace Player
 {
+    class PlayerView;
     class PlayerController : public Collision::ICollider
     {
     private:
@@ -23,6 +24,7 @@ namespace Player
         void processPlayerInput();
         void moveLeft();
         void moveRight();
+        void processBulletFire();
 
         bool processPowerupCollision(ICollider* other_collider);
         bool processEnemyCollision(ICollider* other_collider);
